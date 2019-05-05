@@ -34,5 +34,11 @@ At the end of step 6, i have freed up 215GB of memory in the SSD for ubuntu and 
 
 1. [download ubuntu](https://www.ubuntu.com/download/desktop/thank-you?country=US&version=18.04.2&architecture=amd64)
 2. [install rufus](https://rufus.ie/)
-3. [create bootable ubuntu using rufus](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0)
-4. 
+3. [create bootable usb ubuntu using rufus](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0)
+4. boot into usb ubuntu from windows
+   ..* (windows key + i) -> choose (update & security) -> choose recovery sidetap -> advanced option restart -> usb fd
+5. [ubuntu installation](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#3)
+
+---
+
+## post
