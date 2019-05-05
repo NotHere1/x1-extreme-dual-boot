@@ -36,9 +36,20 @@ At the end of step 6, i have freed up 215GB of memory in the SSD for ubuntu and 
 2. [install rufus](https://rufus.ie/)
 3. [create bootable usb ubuntu using rufus](https://tutorials.ubuntu.com/tutorial/tutorial-create-a-usb-stick-on-windows#0)
 4. boot into usb ubuntu from windows 
-   1. (windows key + i) -> choose (update & security) -> choose recovery sidetap -> advanced option restart -> usb fd
+   1. (windows key + i)
+   2. choose (update & security)
+   3. choose recovery sidetab
+   4. choose advanced option restart
+   5. choose usb fd
 5. [ubuntu installation](https://tutorials.ubuntu.com/tutorial/tutorial-install-ubuntu-desktop#3)
 
 ---
 
-## post
+## post install ubuntu
+
+since x1 extreme comes with a nvidia gpu, ubuntu at first will use open sourced nouveau driver for the xorg server display. but this could potentially caused ubuntu to hang after login.
+
+[do this immediately when GRUB menu pops up after installation restart](https://itsfoss.com/fix-ubuntu-freezing/)
+
+then once login into ubuntu, update and replace nouveau nvidea custom driver
+
